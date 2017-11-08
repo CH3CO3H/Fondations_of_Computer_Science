@@ -3,7 +3,7 @@
 
 list set_union(list, list);
 
-list assemble(cell_t x, list l, list m)
+list asb(cell_t x, list l, list m)
 {
 	list first;
 	first=malloc(sizeof(struct CELL));

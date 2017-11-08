@@ -1,0 +1,14 @@
+#define MAX 15
+typedef int node;
+
+enum MARK_T {VISITED, UNVISITED};
+typedef struct {
+		enum MARK_T mark;
+		list s;
+} graph[MAX];
+
+typedef struct CELL* list;
+struct CELL {
+		node name;
+		list n;
+};
