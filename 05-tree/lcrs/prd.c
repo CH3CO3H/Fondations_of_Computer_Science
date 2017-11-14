@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "def_lr_exp.h"
+#include "exp.h"
 
-void prd(P n)
+void prd(p n)
 {
-		P c;
+		p c;
 		printf("%c\n", n->c);
 		c=n->l;
 		while (c!=NULL) {

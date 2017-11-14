@@ -1,7 +1,7 @@
-typedef struct N *P;
+typedef struct N* p;
 struct N {
 	char c;
 	int m;
-	P l, r;
+	p l, r;
 };
 

@@ -1,6 +1,6 @@
-#include "def_lr_exp_evl.h"
+#includel "exp_evl.h"
 
-int evl(P n)
+int evl(p n)
 {
 		if (n->o=='i')
 				return n->v;

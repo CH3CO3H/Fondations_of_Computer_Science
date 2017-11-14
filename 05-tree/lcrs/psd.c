@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "def_lr_exp.h"
+#include "exp.h"
 
-void psd(P n)
+void psd(p n)
 {
-		P c;
+		p c;
 		c=n->l;
 		while (c!=NULL) {
 				psd(c);
